@@ -1,0 +1,13 @@
+{
+  "name": "nest-nesting",
+  "version": "0.1.0",
+  "description": "Pure-JS neural scorer + beam search + LNS for irregular nesting; planted-solution puzzles; browser simulator",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "examples": "node export_examples.js",
+    "web": "node web/build.js",
+    "real": "node ext_real.js ours 30000"
+  }
+}
